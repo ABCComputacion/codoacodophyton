@@ -1,0 +1,216 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/menufondo.jpg'); /* Agrega la URL de tu imagen de fondo con transparencia */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9; /* Ajusta la opacidad según tus preferencias (0.0 a 1.0) */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#reservas-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Cambio de color al pasar el mouse */
+nav ul li a:hover {
+    color: #ccc; /* Cambia el color al gris oscuro cuando se pasa el mouse */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    max-width: 600px; /* Limita el ancho del contenido para centrarlo */
+}
+
+/* Estilos para el id "menu" */
+#menu {
+    background-color: #fff; /* Fondo blanco para diferenciarlo del fondo */
+    color: #333; /* Color de texto oscuro */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde alrededor del elemento */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    max-width: 800px; /* Limita el ancho del elemento */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Estilos para el banner */
+#banner {
+    
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Estilos para la superposición de color */
+.banner-overlay, .content-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Superposición de color semi-transparente */
+    padding: 20px;
+    color: #fff; /* Color de texto blanco */
+}
+
+.banner-overlay h2, .content-overlay h2 {
+    margin-top: 0;
+}
+
+.banner-overlay p, .content-overlay p {
+    margin-bottom: 0;
+}
+
+/* Estilos para la clase "menu-plato" */
+.menu-plato {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    width: calc(50% - 40px); /* Establece el 50% del ancho y resta 40px para el margen */
+    min-width: 500px; /* Tamaño mínimo de 500px */
+}
+
+.menu-plato img {
+    width: 100%; /* Todas las imágenes tendrán el mismo ancho */
+    height: auto;
+}
+
+.menu-plato p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Estilos para el formulario de reservas */
+#reservas-content {
+width: 600px;
+background-color: rgba(0, 0, 0, 0.5); /* Superposición de color semi-transparente */
+color:azure;
+}
+
+#reserva-form {
+    
+    text-align: center; /* Centra horizontalmente */
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Alinear etiquetas a la izquierda */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0c0a0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#reserva-form, #reserva-image {
+    max-width: 400px; /* Ajusta el tamaño según tus necesidades */
+    margin: 0 auto;
+}
+
+#contacto-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contacto-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Superposición de color semi-transparente */
+    text-align: center; /* Centra horizontalmente */
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente */
+
+}
+
+textarea {
+    height: 150px; /* Ajusta la altura del campo de texto según tus preferencias */
+    max-width: 600px;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
